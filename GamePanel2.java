@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.io.File;
+
 public class GamePanel2 extends Canvas
 {
     
@@ -28,7 +29,8 @@ public class GamePanel2 extends Canvas
     final int ScreenHeight = tileSize * maxScreenRow; //1,152 pixels
     private BufferedImage img;
     private Image fishy;
-    public GamePanel2() {
+
+    public GamePanel2(){
         //this.setPreferredSize(new Dimension(ScreenWidth,ScreenHeight));
         this.addKeyListener(new KeyboardInputs());
         importImg();
