@@ -9,6 +9,5 @@ public class Game
         gameWindow = new GameWindow(gamePanel);
         gamePanel.setFocusable(true);
         gamePanel.requestFocus();
-        
     }
 }

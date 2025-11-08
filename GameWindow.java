@@ -11,6 +11,5 @@ public class GameWindow
         window.setLocationRelativeTo(null);
         window.setVisible(true);
         window.setSize (500, 500);
-
     }
 }
